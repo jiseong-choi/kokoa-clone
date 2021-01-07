@@ -1,0 +1,19 @@
+.blueTitle {
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+}
+h2 {
+    color: red;
+    font-size: 50px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.blueTitle {
+    color: yellowgreen;
+}
+
+.blueTitle{
+    color: rebeccapurple;
+}
