@@ -2,9 +2,10 @@
     display: flex;
     justify-content: center;
     padding: 5px 3px;
-    position: fixed;
     box-sizing: border-box;
     width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .status-bar__column:nth-child(2) {
