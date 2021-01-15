@@ -5,7 +5,8 @@ let batteryPromise = navigator.getBattery();
 batteryPromise.then(batteryCallback);
 
 function batteryCallback(batteryObject) {
-   printBatteryStatus(batteryObject);
+    printBatteryStatus(batteryObject);
+    console.log(batteryObject)
 }
 function printBatteryStatus(batteryObject) {
     console.log("IsCharging", batteryObject.charging);
