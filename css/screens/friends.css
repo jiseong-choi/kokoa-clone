@@ -1,0 +1,10 @@
+#friends-display-link{
+    display: block;
+    text-align: center;
+    background-color: #eae7e77a;
+    padding: 10px 0px;
+}
+
+#friends-display-link i {
+    color: rgba(0, 0, 0, 0.3);
+}
