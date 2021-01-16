@@ -21,3 +21,8 @@
     color: rgba(0, 0, 0, 0.45);
     font-size: 15px;
 }
+
+.user-component-avatar--xl{
+    width: 80px;
+    height: 80px;
+}
