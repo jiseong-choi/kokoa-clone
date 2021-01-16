@@ -2,10 +2,6 @@
     display: flex;
     justify-content: center;
     padding: 5px 3px;
-    box-sizing: border-box;
-    width: 100%;
-    position: fixed;
-    top: 0;
 }
 
 .status-bar__column:nth-child(2) {
@@ -29,4 +25,8 @@
 
 .status-bar__column:first-child span {
     margin-right: 4px;
+}
+
+.fa-bolt{
+    margin-right: 2.5px;
 }

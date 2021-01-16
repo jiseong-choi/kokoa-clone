@@ -20,3 +20,4 @@ function printBatteryStatus(batteryObject) {
         bolt.style.display = "none";
     }
 }
+
