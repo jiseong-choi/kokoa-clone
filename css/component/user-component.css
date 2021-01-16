@@ -15,3 +15,9 @@
     font-weight: 600;
     font-size: 19px;
 }
+
+.user-component__subtitle{
+    margin-top: 7px;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 15px;
+}
