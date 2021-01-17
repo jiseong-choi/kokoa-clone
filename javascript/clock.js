@@ -13,7 +13,7 @@ function getTime() {
   //삼항 연산자란 앞에 두값을 비교한후 맞으면 : 앞에 값을 틀리면 뒤의 값을 넣어주는 식임;
 }
 
-function alterTime() {
+function alertTime() {
   const date = new Date();
   const minutes = date.getMinutes();
   const hours = date.getHours();
@@ -23,7 +23,8 @@ function alterTime() {
 }
 
 function init() {
-  alterTime();
+  getTime();
+  alertTime();
   setInterval(getTime, 1000);//뒤에 인자는 리로드 시간 1은 1ms를 뜻함 fuction init는 기본 함수로 정의함;
 }
 

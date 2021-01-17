@@ -40,3 +40,8 @@
 .user-component__title--not-bold{
     font-weight: 500;
 }
+
+.user-component__time{
+    display: block;
+    margin-bottom: 5px;
+}
