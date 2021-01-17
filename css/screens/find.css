@@ -1,21 +1,4 @@
-.find-icons{
-    display: flex;
-    justify-content: space-between;
-}
 
-.find-icons__icon{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.find-icons__icon i{
-    font-size: 30px;
-}
-
-.find-icons__icon span {
-    margin-top: 15px;
-}
 
 .recommended-friends{
     margin: 25px 0px;
@@ -34,7 +17,7 @@
     text-align: center;
     color: rgba(0, 0, 0, 0.5);
     font-size: 18px;
-    margin-bottom: 25px;
+    margin-bottom: 55px;
 }
 
 .open-chat__header{
