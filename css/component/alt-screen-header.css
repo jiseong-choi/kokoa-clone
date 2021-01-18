@@ -17,4 +17,15 @@
 
 .alt-header__column:last-child{
     margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.alt-header__column span:last-child {
+    margin-left: 3px;
+}
+
+.alt-header__column{
+    width: 33%;
 }

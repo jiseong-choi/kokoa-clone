@@ -2,6 +2,10 @@
     display: flex;
     justify-content: center;
     padding: 5px 3px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .status-bar__column:nth-child(2) {
@@ -29,4 +33,10 @@
 
 .fa-bolt{
     margin-right: 2.5px;
+}
+
+.status-bar__column:nth-child(2){
+    text-align: center;
+    display: flex;
+    align-items: center;
 }

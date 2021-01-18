@@ -1,4 +1,5 @@
 .screen-header{
+    margin-top: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,3 +30,17 @@
 }
 
 
+
+@keyframes rotateCog {
+    from {
+        transform: none;
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .fa-cog:hover {
+    animation: rotateCog 1s linear infinite;
+}

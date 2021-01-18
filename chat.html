@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Settings - JiseongTalk</title>
+    <title>Talk with JiseongTalk - JiseongTalk</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body id="chat-screen">
     <div class="status-bar">
         <div class="status-bar__column">
             <span>LG U+</span>
@@ -24,78 +24,60 @@
    
     <header class="alt-header">
         <div class="alt-header__column">
-            <a href="friends.html">
+            <a href="chats.html">
             <i class="fas fa-angle-left fa-2x"></i>
             </a>
         </div>
         <div class="alt-header__column">
-            <h1 class="alt-header__title">Settings</h1>
+            <h1 class="alt-header__title">Jiseong</h1>
         </div>
         <div class="alt-header__column">
-            <i class="fas fa-search fa-lg"></i>
+            <span>
+                <i class="fas fa-search fa-lg"></i>
+            </span>
+            <span>
+                <i class="fas fa-bars fa-lg"></i>
+            </span>
         </div>
     </header>
-
-    </heade>
     
-    <main class="main-screen">
-        <ul class="settings-list">
-            <li class="settings__setting">
-                <div class="settings__setting-column">
-                    <i class="fas fa-bullhorn"></i>
-                    <span>Notices</span>
-                </div>
-                <div class="settings__setting-column">
-
-                </div>
-            </li>
-            <li class="settings__setting">
-                <div class="settings__setting-column">
-                    <i class="fas fa-flask"></i>
-                    <span>Jiseong Lab</span>
-                </div>
-                <div class="settings__setting-column">
-                    
-                </div>
-            </li>
-            <li class="settings__setting">
-                <div class="settings__setting-column">
-                    <i class="fas fa-info-circle"></i>
-                    <span>Version</span>
-                </div>
-                <div class="settings__setting-column">
-                    Latest Version
-                </div> 
-            </li>
-        </ul>
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            ^^^day, January 20
+        </div>
+        <div class="message-row">
+        <img src="https://avatars3.githubusercontent.com/u/72449074?s=460&u=66847301059d1b12aa48f97e6f428bc99416ddfc&v=4" />
+        <div class="message-row__content">
+          <span class="message__author">Jiseong</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Hi nice to meet you!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
     </main>
 
-    <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__btn">
-                <a class="nav__link" href="friends.html">
-                    <i class="far fa-user fa-2x"></i>
-                </a>          
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="chats.html">
-                    <span class="nav__notification badge">1</span>
-                    <i class="far fa-comment fa-2x"></i>
-                </a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="find.html">
-                    <i class="fas fa-search fa-2x"></i>
-                </a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="more.html">
-                    <span class="nav__dot"></span>
-                    <i class="fas fa-ellipsis-h fa-2x"></i>
-                </a>
-            </li>
-        </ul>
-    </nav>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
     <script src="javascript/clock.js"></script>
     <script src="javascript/battery.js"></script>
     <script src="https://kit.fontawesome.com/0e98215d28.js" crossorigin="anonymous"></script>
